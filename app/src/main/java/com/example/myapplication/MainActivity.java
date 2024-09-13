@@ -1,9 +1,12 @@
 package com.example.myapplication;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.MediaController;
 import android.widget.Spinner;
+import android.widget.VideoView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -35,5 +38,10 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView img = findViewById(R.id.image_view);
         img.setImageResource(R.drawable.bell);
+
+        VideoView mVideoView = findViewById(R.id.video_view);
+        mVideoView.setVideoURI(Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.ring_the_bell));
+        mVideoView.setMediaController(new MediaController(this));
+        mVideoView.requestFocus();
     }
 }

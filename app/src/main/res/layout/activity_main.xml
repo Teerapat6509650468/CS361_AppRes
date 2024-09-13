@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:contentDescription="@string/image_text"
             tools:ignore="ImageContrastCheck"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:src="@drawable/bell" />
 
         <VideoView
             android:id="@+id/video_view"

@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.Spinner;
 
 import androidx.activity.EdgeToEdge;
@@ -31,5 +32,8 @@ public class MainActivity extends AppCompatActivity {
                 android.R.layout.simple_list_item_checked
         );
         spinner.setAdapter(adapter);
+
+        ImageView img = findViewById(R.id.image_view);
+        img.setImageResource(R.drawable.bell);
     }
 }

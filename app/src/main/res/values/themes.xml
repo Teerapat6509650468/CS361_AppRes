@@ -7,7 +7,7 @@
 
     <style name="Theme.MyApplication" parent="Theme.AppCompat.DayNight" />
     <style name="my_style" parent="Theme.MyApplication">
-        <item name="android:textSize">@dimen/my_style_text</item>
+        <item name="android:textSize">@dimen/my_style_text </item>
         <item name="android:textColor">@color/dark_blue</item>
     </style>
 </resources>

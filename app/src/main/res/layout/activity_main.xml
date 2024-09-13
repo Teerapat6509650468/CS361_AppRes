@@ -24,6 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
+            android:textColor="@color/opaque_red"
             android:text="@string/string_text" />
 
         <TextView
@@ -31,6 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center|center_horizontal"
+            android:textColor="@color/opaque_red"
             android:text="@string/style_text" />
 
         <ImageView

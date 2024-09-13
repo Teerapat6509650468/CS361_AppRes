@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:spinnerMode="dialog"
-            android:minHeight="60dp"/>
+            android:minHeight="@dimen/spinner_min_height"/>
 
         <TextView
             android:id="@+id/string_text"
@@ -25,14 +25,16 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:textColor="@color/opaque_red"
+            android:textSize="@dimen/large_size"
             android:text="@string/string_text" />
 
         <TextView
             android:id="@+id/style_text"
+            style="@style/my_style"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center|center_horizontal"
-            android:textColor="@color/opaque_red"
+            android:textSize="@dimen/normal_size"
             android:text="@string/style_text" />
 
         <ImageView

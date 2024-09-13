@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="string_text">String Value</string>
+    <string name="style_text">My Style</string>
+    <string name="image_text">Image</string>
+    <string name="item1_text">Item 1</string>
+    <string name="item2_text">Item 2</string>
 </resources>

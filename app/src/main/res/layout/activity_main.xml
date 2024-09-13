@@ -34,8 +34,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center|center_horizontal"
-            android:textSize="@dimen/normal_size"
-            android:text="@string/style_text" />
+            android:text="@string/style_text"
+            android:textSize="@dimen/normal_size" />
 
         <ImageView
             android:id="@+id/image_view"
